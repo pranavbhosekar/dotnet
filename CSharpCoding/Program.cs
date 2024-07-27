@@ -28,3 +28,8 @@ public class B : A
     }
 
 }
+
+public class C : B
+{
+    B c = new C();
+}
